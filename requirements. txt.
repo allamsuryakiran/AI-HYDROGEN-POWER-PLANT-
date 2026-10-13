@@ -1,5 +1,9 @@
-streamlit
-numpy
-pandas
-matplotlib==3.10.7
-scikit-learn
+import streamlit as st
+import matplotlib.pyplot as plt
+
+st.title("AI-Based Hydrogen Power Plant")
+st.success("Matplotlib installed successfully!")
+
+fig, ax = plt.subplots()
+ax.plot([1, 2, 3], [10, 20, 30])
+st.pyplot(fig)
